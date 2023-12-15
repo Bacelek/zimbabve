@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "img_path": "p1.jpg",
+    "name": "Фон бумажный",
+    "id_brand": "3",
+    "description": "Бумажный фон , размер 2,72 х 11,0 метров.",
+    "cost": "5990"
+  },
+  {
+    "id": "2",
+    "img_path": "p2.jpg",
+    "name": "HD-200pro",
+    "id_brand": "1",
+    "description": "Профессиональный осветитель",
+    "cost": "26029"
+  },
+  {
+    "id": "3",
+    "img_path": "p3.jpg",
+    "name": "HD-601 500Дж",
+    "id_brand": "1",
+    "description": "Вспышка Jinbei HD-601",
+    "cost": "37519"
+  },
+  {
+    "id": "4",
+    "img_path": "p4.jpg",
+    "name": "DPE II-800",
+    "id_brand": "1",
+    "description": "Jinbei DPE II-800",
+    "cost": "18499"
+  },
+  {
+    "id": "5",
+    "img_path": "p5.jpg",
+    "name": "EF-300 Bi LED 2700K - 6500K",
+    "id_brand": "1",
+    "description": "Jinbeis EF-300Bi",
+    "cost": "48509"
+  },
+  {
+    "id": "6",
+    "img_path": "p6.jpg",
+    "name": "Лампа импульсная",
+    "id_brand": "3",
+    "description": "Лампа импульсная для студийной вспышки FST F-400",
+    "cost": "4050"
+  },
+  {
+    "id": "7",
+    "img_path": "p7.jpg",
+    "name": "Зарядное устройство",
+    "id_brand": "1",
+    "description": "Это зарядное устройство предназначено для зарядки аккумулятора Jinbei MARS-3 Li-ion Battery 2500mAh DC 14.8V.",
+    "cost": "549"
+  },
+  {
+    "id": "8",
+    "img_path": "p8.jpg",
+    "name": "DPE II-600",
+    "id_brand": "1",
+    "description": "Jinbei DPE II-600",
+    "cost": "16899"
+  },
+  {
+    "id": "9",
+    "img_path": "p9.png",
+    "name": "MSN-400 Pro HSS Уценка",
+    "id_brand": "1",
+    "description": "MSN 400 Pro HSS",
+    "cost": "13799"
+  },
+  {
+    "id": "10",
+    "img_path": "p10.png",
+    "name": "Eyes Phantom 800 HSS",
+    "id_brand": "2",
+    "description": "Вспышка студийная Falcon Eyes Phantom 800 HSS",
+    "cost": "32070"
+  },
+  {
+    "id": "11",
+    "img_path": "p11.png",
+    "name": "MSN-400 Pro HSS",
+    "id_brand": "1",
+    "description": "MSN 400 Pro HSS",
+    "cost": "25999"
+  },
+  {
+    "id": "12",
+    "img_path": "p12.jpg",
+    "name": "Eyes SS-150BJM",
+    "id_brand": "2",
+    "description": "Новая версия вспышек серии SS",
+    "cost": "6990"
+  },
+  {
+    "id": "13",
+    "img_path": "p13.jpg",
+    "name": "E-180",
+    "id_brand": "3",
+    "description": "FST E-180 – импульсная студийная вспышка с рефлектором мощностью 180 Дж.",
+    "cost": "6500"
+  },
+  {
+    "id": "14",
+    "img_path": "p14.jpg",
+    "name": "Eyes GT-280",
+    "id_brand": "2",
+    "description": "Falcon Eyes GT-280 предлагает владельцу уникальное сочетание характеристик, мобильности и привлекательной цены.",
+    "cost": "31860"
+  },
+  {
+    "id": "15",
+    "img_path": "p15.jpg",
+    "name": "Eyes Phantom 400 HSS",
+    "id_brand": "2",
+    "description": "Вспышка студийная Falcon Eyes Phantom 400 HSS",
+    "cost": "27690"
+  }
+]
