@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<xml table_name="drugs">
+  <columns>
+    <field>
+      <Field>id</Field>
+      <Type>int(11) unsigned</Type>
+      <Null>NO</Null>
+      <Key>PRI</Key>
+      <Default>null</Default>
+      <Extra>auto_increment</Extra>
+    </field>
+    <field>
+      <Field>img_path</Field>
+      <Type>varchar(45)</Type>
+      <Null>NO</Null>
+      <Key>null</Key>
+      <Default>no_img.png</Default>
+      <Extra>null</Extra>
+    </field>
+    <field>
+      <Field>name</Field>
+      <Type>varchar(45)</Type>
+      <Null>NO</Null>
+      <Key>null</Key>
+      <Default>null</Default>
+      <Extra>null</Extra>
+    </field>
+    <field>
+      <Field>id_brand</Field>
+      <Type>int(10) unsigned</Type>
+      <Null>NO</Null>
+      <Key>MUL</Key>
+      <Default>null</Default>
+      <Extra>null</Extra>
+    </field>
+    <field>
+      <Field>description</Field>
+      <Type>varchar(255)</Type>
+      <Null>NO</Null>
+      <Key>null</Key>
+      <Default>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</Default>
+      <Extra>null</Extra>
+    </field>
+    <field>
+      <Field>cost</Field>
+      <Type>int(11)</Type>
+      <Null>NO</Null>
+      <Key>null</Key>
+      <Default>null</Default>
+      <Extra>null</Extra>
+    </field>
+  </columns>
+  <values>
+    <field>
+      <img_path>l-citrulline.jpg</img_path>
+      <name>L-cittruline</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2654</cost>
+    </field>
+    <field>
+      <img_path>daily-max.jpg</img_path>
+      <name>Daily max</name>
+      <id_brand>1</id_brand>
+      <description>&#x41A;&#x430;&#x43B;&#x44C;&#x446;&#x438;&#x439; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x44B;&#x439; &#x434;&#x43B;&#x44F; &#x443;&#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x439;.</description>
+      <cost>1756</cost>
+    </field>
+    <field>
+      <img_path>geneticlab.jpg</img_path>
+      <name>Max</name>
+      <id_brand>5</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>4698</cost>
+    </field>
+    <field>
+      <img_path>rline.jpg</img_path>
+      <name>Medium </name>
+      <id_brand>3</id_brand>
+      <description>&#x413;&#x43B;&#x44E;&#x442;&#x430;&#x43C;&#x438;&#x43D; &#x2013; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x43D;&#x43E; &#x43D;&#x435;&#x437;&#x430;&#x43C;&#x435;&#x43D;&#x438;&#x43C;&#x430;&#x44F; &#x430;&#x43C;&#x438;&#x43D;&#x43E;&#x43A;&#x438;&#x441;&#x43B;&#x43E;&#x442;&#x430;. &#x42F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x43D;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x44C;&#x44E; &#x431;&#x435;&#x43B;&#x43A;&#x430;. &#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x430; &#x434;&#x43B;&#x44F; &#x441;&#x438;&#x43D;&#x442;&#x435;&#x437;&#x430; &#x43C;&#x44B;&#x448;&#x435;&#x447;&#x43D;&#x43E;&#x439; &#x442;&#x43A;&#x430;&#x43D;&#x438;.</description>
+      <cost>990</cost>
+    </field>
+    <field>
+      <img_path>cybermass.jpg</img_path>
+      <name>Super</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>8412</cost>
+    </field>
+    <field>
+      <img_path>myprotein.jpg</img_path>
+      <name>10 UPD</name>
+      <id_brand>2</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>589</cost>
+    </field>
+    <field>
+      <img_path>maxler-5htp.jpg</img_path>
+      <name>5 HTP</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>4852</cost>
+    </field>
+    <field>
+      <img_path>iso.jpg</img_path>
+      <name>Isolate</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>856</cost>
+    </field>
+    <field>
+      <img_path>mx.jpg</img_path>
+      <name>Matriza</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1562</cost>
+    </field>
+    <field>
+      <img_path>power4000.jpg</img_path>
+      <name>Power 4000</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2310</cost>
+    </field>
+    <field>
+      <img_path>titanium_iso.jpg</img_path>
+      <name>Titanium isolate</name>
+      <id_brand>5</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1056</cost>
+    </field>
+    <field>
+      <img_path>maxler_chocolate.jpg</img_path>
+      <name>WHEY PROTEIN</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1243</cost>
+    </field>
+    <field>
+      <img_path>bca.jpg</img_path>
+      <name>Isolate supreme</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1048</cost>
+    </field>
+    <field>
+      <img_path>beefprot.jpg</img_path>
+      <name>BEEF PROTEIN COCKTAIL</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2561</cost>
+    </field>
+    <field>
+      <img_path>boitech.jpg</img_path>
+      <name>BIO TECH</name>
+      <id_brand>3</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1230</cost>
+    </field>
+    <field>
+      <img_path>befirst-tyrosine.jpg</img_path>
+      <name>BE FIRST L-TYROSINE</name>
+      <id_brand>2</id_brand>
+      <description>&#x422;&#x438;&#x440;&#x43E;&#x437;&#x438;&#x43D; &#x2014; &#x430;&#x43C;&#x438;&#x43D;&#x43E;&#x43A;&#x438;&#x441;&#x43B;&#x43E;&#x442;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x430;&#x44F; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x435;&#x434;&#x448;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x438;&#x43A;&#x43E;&#x43C; &#x434;&#x43E;&#x444;&#x430;&#x43C;&#x438;&#x43D;&#x430; &#x438; &#x43D;&#x43E;&#x440;&#x430;&#x434;&#x440;&#x435;&#x43D;&#x430;&#x43B;&#x438;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x442; &#x437;&#x430; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x438;, &#x432;&#x43D;&#x438;&#x43C;&#x430;&#x43D;&#x438;&#x435;, &#x443;&#x441;&#x432;&#x43E;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x43E;&#x432;&#x44B;&#x445; &#x437;&#x43D;&#x430;&#x43D;&#x438;&#x439; &#x438; &#x445;&#x43E;&#x440;&#x43E;&#x448;&#x435;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x435;. </description>
+      <cost>1256</cost>
+    </field>
+    <field>
+      <img_path>optimum.jpg</img_path>
+      <name>OPTIMUM NUTRITION BCAA</name>
+      <id_brand>5</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2410</cost>
+    </field>
+    <field>
+      <img_path>whey_gold.jpg</img_path>
+      <name>WHEY GOLD</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1420</cost>
+    </field>
+    <field>
+      <img_path>glutamine-powder.jpg</img_path>
+      <name>NUTRITION GLUTAMINE POWDER</name>
+      <id_brand>2</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2350</cost>
+    </field>
+    <field>
+      <img_path>aminoenergy.jpg</img_path>
+      <name>AMINO ENERGY</name>
+      <id_brand>5</id_brand>
+      <description>&#x414;&#x43B;&#x44F; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x439; &#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x442;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x43B; &#x432; &#x441;&#x43F;&#x43E;&#x440;&#x442;&#x437;&#x430;&#x43B;&#x435;. Essential AmiN.O.</description>
+      <cost>2105</cost>
+    </field>
+    <field>
+      <img_path>l-citrulline.jpg</img_path>
+      <name>L-cittruline</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2654</cost>
+    </field>
+    <field>
+      <img_path>daily-max.jpg</img_path>
+      <name>Daily max</name>
+      <id_brand>1</id_brand>
+      <description>&#x41A;&#x430;&#x43B;&#x44C;&#x446;&#x438;&#x439; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x44B;&#x439; &#x434;&#x43B;&#x44F; &#x443;&#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x439;.</description>
+      <cost>1756</cost>
+    </field>
+    <field>
+      <img_path>geneticlab.jpg</img_path>
+      <name>Max</name>
+      <id_brand>5</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>4698</cost>
+    </field>
+    <field>
+      <img_path>rline.jpg</img_path>
+      <name>Medium </name>
+      <id_brand>3</id_brand>
+      <description>&#x413;&#x43B;&#x44E;&#x442;&#x430;&#x43C;&#x438;&#x43D; &#x2013; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x43D;&#x43E; &#x43D;&#x435;&#x437;&#x430;&#x43C;&#x435;&#x43D;&#x438;&#x43C;&#x430;&#x44F; &#x430;&#x43C;&#x438;&#x43D;&#x43E;&#x43A;&#x438;&#x441;&#x43B;&#x43E;&#x442;&#x430;. &#x42F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x43D;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x44C;&#x44E; &#x431;&#x435;&#x43B;&#x43A;&#x430;. &#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x430; &#x434;&#x43B;&#x44F; &#x441;&#x438;&#x43D;&#x442;&#x435;&#x437;&#x430; &#x43C;&#x44B;&#x448;&#x435;&#x447;&#x43D;&#x43E;&#x439; &#x442;&#x43A;&#x430;&#x43D;&#x438;.</description>
+      <cost>990</cost>
+    </field>
+    <field>
+      <img_path>cybermass.jpg</img_path>
+      <name>Super</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>8412</cost>
+    </field>
+    <field>
+      <img_path>myprotein.jpg</img_path>
+      <name>10 UPD</name>
+      <id_brand>2</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>589</cost>
+    </field>
+    <field>
+      <img_path>maxler-5htp.jpg</img_path>
+      <name>5 HTP</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>4852</cost>
+    </field>
+    <field>
+      <img_path>iso.jpg</img_path>
+      <name>Isolate</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>856</cost>
+    </field>
+    <field>
+      <img_path>mx.jpg</img_path>
+      <name>Matriza</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1562</cost>
+    </field>
+    <field>
+      <img_path>power4000.jpg</img_path>
+      <name>Power 4000</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2310</cost>
+    </field>
+    <field>
+      <img_path>titanium_iso.jpg</img_path>
+      <name>Titanium isolate</name>
+      <id_brand>5</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1056</cost>
+    </field>
+    <field>
+      <img_path>maxler_chocolate.jpg</img_path>
+      <name>WHEY PROTEIN</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1243</cost>
+    </field>
+    <field>
+      <img_path>bca.jpg</img_path>
+      <name>Isolate supreme</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1048</cost>
+    </field>
+    <field>
+      <img_path>beefprot.jpg</img_path>
+      <name>BEEF PROTEIN COCKTAIL</name>
+      <id_brand>4</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2561</cost>
+    </field>
+    <field>
+      <img_path>boitech.jpg</img_path>
+      <name>BIO TECH</name>
+      <id_brand>3</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1230</cost>
+    </field>
+    <field>
+      <img_path>befirst-tyrosine.jpg</img_path>
+      <name>BE FIRST L-TYROSINE</name>
+      <id_brand>2</id_brand>
+      <description>&#x422;&#x438;&#x440;&#x43E;&#x437;&#x438;&#x43D; &#x2014; &#x430;&#x43C;&#x438;&#x43D;&#x43E;&#x43A;&#x438;&#x441;&#x43B;&#x43E;&#x442;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x430;&#x44F; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x435;&#x434;&#x448;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x438;&#x43A;&#x43E;&#x43C; &#x434;&#x43E;&#x444;&#x430;&#x43C;&#x438;&#x43D;&#x430; &#x438; &#x43D;&#x43E;&#x440;&#x430;&#x434;&#x440;&#x435;&#x43D;&#x430;&#x43B;&#x438;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x442; &#x437;&#x430; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x440;&#x435;&#x430;&#x43A;&#x446;&#x438;&#x438;, &#x432;&#x43D;&#x438;&#x43C;&#x430;&#x43D;&#x438;&#x435;, &#x443;&#x441;&#x432;&#x43E;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x43E;&#x432;&#x44B;&#x445; &#x437;&#x43D;&#x430;&#x43D;&#x438;&#x439; &#x438; &#x445;&#x43E;&#x440;&#x43E;&#x448;&#x435;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x435;. </description>
+      <cost>1256</cost>
+    </field>
+    <field>
+      <img_path>optimum.jpg</img_path>
+      <name>OPTIMUM NUTRITION BCAA</name>
+      <id_brand>5</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2410</cost>
+    </field>
+    <field>
+      <img_path>whey_gold.jpg</img_path>
+      <name>WHEY GOLD</name>
+      <id_brand>1</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>1420</cost>
+    </field>
+    <field>
+      <img_path>glutamine-powder.jpg</img_path>
+      <name>NUTRITION GLUTAMINE POWDER</name>
+      <id_brand>2</id_brand>
+      <description>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x441;&#x443;&#x442;&#x432;&#x443;&#x435;&#x442;.</description>
+      <cost>2350</cost>
+    </field>
+    <field>
+      <img_path>aminoenergy.jpg</img_path>
+      <name>AMINO ENERGY</name>
+      <id_brand>5</id_brand>
+      <description>&#x414;&#x43B;&#x44F; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x439; &#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x442;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x43B; &#x432; &#x441;&#x43F;&#x43E;&#x440;&#x442;&#x437;&#x430;&#x43B;&#x435;. Essential AmiN.O.</description>
+      <cost>2105</cost>
+    </field>
+  </values>
+</xml>
