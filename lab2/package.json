@@ -1,0 +1,47 @@
+
+{
+    "name": "spa",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix"
+    },
+    "dependencies": {
+      "core-js": "^3.41.0",
+      "vue": "^3.5.13",
+      "vue-router": "^4.5.0",
+      "vuex": "^4.1.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^5.2.3",
+      "@vue/compiler-sfc": "^3.5.13",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.8.0",
+      "eslint-plugin-vue": "^7.20.0",
+      "sass": "^1.86.0",
+      "sass-loader": "^16.0.5",
+      "vite": "^6.2.3"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/vue3-essential",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "rules": {}
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+  
